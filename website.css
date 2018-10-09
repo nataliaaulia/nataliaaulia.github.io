@@ -5,12 +5,6 @@ p {text-align: justify; font-size: 14px; font-family: 'Lora', serif; margin-top:
 h2 { color: #4c495a }
 h1 { color: #4c495a }
 
-ul {
-	width: 100%;
-	display: table;
-	text-align: center;
-}
-
 menu li {list-style: none; display: inline-block; }
 menu li a { text-decoration: none; color: #013243; float: left; line-height: 40px; padding: 0 25px; border-right: 1px solid #19B5FE; 
 }
@@ -46,9 +40,11 @@ menu li a { text-decoration: none; color: #013243; float: left; line-height: 40p
 
 #heart {
   width: 100px;
-  height: 90px;
+  height: 60px;
   animation: heartbeat 1s infinite;
-  float: inline-start;
+  margin: auto;
+  position: relative;
+  display: inline-block;
 }
 
 #heart:before,
@@ -95,4 +91,3 @@ menu li a { text-decoration: none; color: #013243; float: left; line-height: 40p
 
 footer { font-family: 'Lora', serif; font-size: 15px; margin-top: 10px; color: #4c495a; height: 40px; background-color: #e2d4d4; line-height: 40px; text-align: center; font-size: 12px; }
 footer a { color: #013243; text-decoration: none; }
-
