@@ -5,17 +5,8 @@ p {text-align: justify; font-size: 14px; font-family: 'Lora', serif; margin-top:
 h2 { color: #4c495a }
 h1 { color: #4c495a }
 
-menu li {list-style: none; display: inline-block; }
-menu li a { text-decoration: none; color: #013243; float: left; line-height: 40px; padding: 0 25px; border-right: 1px solid #19B5FE; 
-}
-
-.top-middle-down-light-grey button:click {background-color: #ca8799}
-
 .nav li {list-style-type: none; display: inline-block;}
 .nav li a { color: black; font-family: baskerville }
-
-.top .top-bar {text-align: center;}
-.top-bar-item {padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
 
 @keyframes heartbeat {
   0% {
