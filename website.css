@@ -81,7 +81,7 @@ body a {
   font-family: 'Lora', serif
 }
 
-@media (min-width: 700px) {
+@media (min-width: 992px) {
   .ontop {
     height: 100vh;
   }
