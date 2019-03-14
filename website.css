@@ -1,82 +1,306 @@
-* { padding: 0; margin: 0; background-color: #f5f5f5}
+* { 
+  padding: 0; 
+  margin: 0; 
+}
 
 h2 { color: #4c495a }
 h1 { color: #4c495a }
 
+body p{
+  font-family: 'Lora', serif
+}
+
+body h3 {
+  font-family: 'Lora', serif
+}
+
+body a {
+  font-family: 'Lora', serif
+}
+
+.navbar {
+  background-color: white
+}
+
+.navbar > .navbar-brand {
+  font-size: 30px; 
+  font-family: 'Gloria Hallelujah',cursive;
+}
+
+/* Typed.js */
+#typed,
+.typed-cursor {
+  font-size: 50px;
+  /*color: white;*/
+}
+
+#typedjs {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ontop {
+  /* min-height: 30rem; */
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  /* padding-top: 8rem; */
+  /* padding-bottom: 8rem; */
+  /* background: whitesmoke; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white
+}
+
+.ontop > .top-middle img{
+  width: 85%; 
+  display: block; 
+  margin: auto;
+  margin-top: 20px
+}
+
+.ontop > .top-middle-down { 
+  width: 700px; 
+  display: block;
+  margin: auto;
+  border-color: #e2d4d4; 
+  margin-top: 10px;
+  text-align: center;
+  align: center;
+}
+
+.ontop p {
+  margin: 10px;
+  font-family: 'Lora', serif
+}
+
+.ontop li {
+  margin: 10px;
+  font-family: 'Lora', serif
+}
+
+@media (min-width: 700px) {
+  .ontop {
+    height: 100vh;
+  }
+}
+.ontop > .top-middle-down form {
+  background: white; 
+  display: block; 
+  margin: auto; 
+  border-color: black; 
+  border-spacing: 5px; 
+  font-family: 'Lora', sans-serif;  
+}
+
+.ontop > .top-middle-down form button {
+  background-color: #FFE9F6;
+  padding: 0.5em 1em; 
+  margin-bottom: 10px;
+  color: #4c495a;
+  border-spacing: 5px; 
+  border-color: transparent
+
+}
+
+.top-up {
+  text-align: center;
+  align: center;
+  position: relative;
+  font-family: 'Lora', serif;
+  background-color: #DFFCFF;
+  padding: 10px
+}
+
+.top-up h3 {
+  margin: auto; 
+  display: block;
+  padding: 5px;
+}
+
+.top-up h4 {
+  margin: auto; 
+  display: block; 
+}
+
+.top-up p {
+  margin: auto; 
+  display: block; 
+  font-size: 17px;
+  padding: 5px
+}
+
+.top-down {
+  position: relative;
+  text-align: center;
+  align: center;
+  font-family: 'Lora', serif;
+  background-color: #ECE9FF;
+  padding: 10px
+}
+
+.top-down h3 {
+  margin: auto; 
+  display: block; 
+  padding: 5px
+}
+
+.top-down img {
+  width: 200px; 
+  margin: 5px
+}
+
+.middle {
+  position: relative;
+  margin: auto; 
+  display: block; 
+  font-family: 'Lora, serif'; 
+  align: center;
+  text-align: center;
+  background-color: #DFFCFF;
+  font-size: 16px;
+}
+
+.middle h3 {
+  padding: 10px
+}
+
+.middle > .middle-pict {
+  max-width: 700px; 
+  display: block; 
+  margin: auto; 
+  margin-top: 10px
+}
+
+.middle > .middle-pict > .slider {
+  width: 100%
+}
+
+.middle > .middle-project {
+  width: 100%; 
+  display: block; 
+  margin: auto;
+  margin-top:10px;
+  text-align: center; 
+}
+
+.middle > .middle-project h3  {
+  padding: 5px
+}
+
+.middle > .middle-project p {
+  margin-bottom: 10px; 
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+.middle > .middle-project a {
+  color: black; 
+  padding-bottom: 5px;
+}
+
+.down {
+  position: relative;
+  margin: auto; 
+  display: block; 
+  font-family: 'Lora, serif'; 
+  align: center;
+  text-align: center;
+  background-color: white;
+  font-size: 16px
+}
+
+.down > .down-project {
+  width: 80%; 
+  display: block;
+  margin: auto; 
+  margin-top:10px
+}
+
+.down > .down-project a {
+  color: black; 
+  list-style: none; 
+}
+
+.down > .down-pict {
+  max-width: 700px; 
+  margin-top: 10px;
+  display: block; 
+  margin: auto; 
+}
+
+.down > .down-project h3  {
+  padding: 5px
+}
+
+.down > .down-pict > .slider {
+  width: 100%
+}
+
+.bottom {
+  position: relative;
+  margin: auto; 
+  display: block; 
+  font-family: 'Lora, serif'; 
+  align: center;
+  text-align: center;
+  background-color: #DFFCFF;
+  font-size: 16px
+}
+
+.bottom > .bottom-pict > .slider {
+  width: 100%;
+}
+
+.bottom > .bottom-project {
+  width: 80%; 
+  display: block;
+  margin: auto; 
+  margin-top:10px
+}
+
+.bottom > .bottom-project a {
+  color: black; 
+  list-style: none; 
+}
+
+.bottom p {
+  margin-bottom: 0
+}
+
+.bottom > .bottom-pict {
+  max-width: 700px; 
+  display: block; 
+  margin: auto; 
+  margin-top: 10px
+}
+
+.bottom > .bottom-project h3  {
+  padding: 5px
+}
+
+.last {
+  display: block; 
+  position: relative;
+  align: center;
+  text-align: center;
+  background-color: #ECE9FF;
+  padding: 10px
+}
+
 .nav li {list-style-type: none; display: inline-block;}
 .nav li a { color: black; font-family: baskerville }
 
-@keyframes heartbeat {
-  0% {
-    transform: scale( .75);
-  }
-  20% {
-    transform: scale( 1);
-  }
-  40% {
-    transform: scale( .75);
-  }
-  60% {
-    transform: scale( 1);
-  }
-  80% {
-    transform: scale( .75);
-  }
-  100% {
-    transform: scale( .75);
-  }
+footer { 
+  font-family: 'Lora', serif; 
+  font-size: 15px; 
+  color: #4c495a; 
+  background-color: #FFE9F6;
+  line-height: 40px; 
+  text-align: center; 
+  font-size: 12px; 
 }
 
-#heart {
-  width: 100px;
-  height: 60px;
-  animation: heartbeat 1s infinite;
-  margin: auto;
-  position: relative;
-  display: inline-block;
-}
-
-#heart:before,
-#heart:after {
-  position: absolute;
-  content: "";
-  left: 50px;
-  top: 0;
-  width: 50px;
-  height: 80px;
-  background: #e2d4d4;
-  -moz-border-radius: 50px 50px 0 0;
-  border-radius: 50px 50px 0 0;
-  -webkit-transform: rotate(-50deg);
-  -moz-transform: rotate(-50deg);
-  -ms-transform: rotate(-50deg);
-  -o-transform: rotate(-50deg);
-  transform: rotate(-50deg);
-  -webkit-transform-origin: 0 100%;
-  -moz-transform-origin: 0 100%;
-  -ms-transform-origin: 0 100%;
-  -o-transform-origin: 0 100%;
-  transform-origin: 0 100%;
-}
-
-#heart:after {
-  left: 0;
-  -webkit-transform: rotate(50deg);
-  -moz-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  -o-transform: rotate(50deg);
-  transform: rotate(50deg);
-  -webkit-transform-origin: 100% 100%;
-  -moz-transform-origin: 100% 100%;
-  -ms-transform-origin: 100% 100%;
-  -o-transform-origin: 100% 100%;
-  transform-origin: 100% 100%;
-}
-
-.lines {
-	border-style: solid;
-	border-color: #ca8799;
-}
-
-footer { font-family: 'Lora', serif; font-size: 15px; margin-top: 10px; color: #4c495a; height: 40px; background-color: #e2d4d4; line-height: 40px; text-align: center; font-size: 12px; }
 footer a { color: #013243; text-decoration: none; }
