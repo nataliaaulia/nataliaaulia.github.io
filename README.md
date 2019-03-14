@@ -1,6 +1,6 @@
 Hello World!
 
-This is an online portolio of me. 
+This is an online portfolio of me. 
 
 Please feel free to contact me at 
 
