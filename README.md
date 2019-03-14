@@ -1,3 +1,13 @@
-Hi everyone, this is an online portofolio of Natalia Aulia.
+Hello World!
 
-Please contact me for more information at aulia001@umn.edu
+This is an online portolio of me. 
+
+Please feel free to contact me at 
+
+```
+aulia001@umn.edu 
+```
+
+for further information about myself.
+
+Thanks for checking it out!
