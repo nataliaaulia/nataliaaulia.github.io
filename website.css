@@ -42,19 +42,12 @@ body a {
 .ontop {
   min-height: 30rem;
   position: relative;
-  /* display: table; */
   width: 100%;
   height: auto;
-  /* padding-top: 8rem; */
-  /* padding-bottom: 8rem; */
-  /* background: whitesmoke; */
-  /* background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   background-color: white
 }
 
-.ontop > .top-middle img{
+.ontop > .top-middle img {
   width: 85%; 
   display: block; 
   margin: auto;
