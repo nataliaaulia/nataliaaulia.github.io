@@ -4,18 +4,26 @@
 }
 
 h2 { color: #4c495a }
-h1 { color: #4c495a }
 
-body p{
+p {
   font-family: 'Lora', serif
 }
 
-body h3 {
+h3 {
   font-family: 'Lora', serif
 }
 
-body a {
+a {
   font-family: 'Lora', serif
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #4c495a
+}
+
+h4 {
+  font-family: 'EB Garamond', serif 
 }
 
 .navbar {
