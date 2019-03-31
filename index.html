@@ -27,13 +27,13 @@
   <body>
       
     <!-- NAV BAR STARTS HERE -->
-    <nav class="navbar navbar-expand-xxl navbar-light sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
       <a class="navbar-brand" href="#">Welcome!</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <div class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#home">ABOUT ME<span class="sr-only">(current)</span></a>
           </li>
@@ -46,7 +46,7 @@
           <li class="nav-item active">
             <a class="nav-link" href="#contact">CONTACT</a>
           </li>
-        </ul>
+        </div>
       </div>
     </nav>
  <!--========== NAVBAR ENDS HERE ==========-->
@@ -159,11 +159,11 @@
           <div class="middle-pict">     
           <!--========== SLIDER ==========-->
             <ul class="slider">
-              <li><img class="lazyload" src="photos/1.jpg" /></li>
-              <li><img class="lazyload" src="photos/2.jpg" /></li>
-              <li><img class="lazyload" src="photos/3.jpg" /></li>
-              <li><img class="lazyload" src="photos/4.jpg" /></li>
-              <li><img class="lazyload" src="photos/5.jpg" /></li>
+              <li><img class="lazyload" src="photos/first/1.jpg" /></li>
+              <li><img class="lazyload" src="photos/first/2.jpg" /></li>
+              <li><img class="lazyload" src="photos/first3.jpg" /></li>
+              <li><img class="lazyload" src="photos/first/4.jpg" /></li>
+              <li><img class="lazyload" src="photos/first/5.jpg" /></li>
             </ul>
           </div>  
           <div class="middle-project">
@@ -188,15 +188,15 @@
         <div class="down-pict">
         <!--========== SLIDER ==========-->
         <ul class="slider">
-          <li><img class="lazyload" src="photos/6.png" /></li>
-          <li><img class="lazyload" src="photos/7.png" /></li>
-          <li><img class="lazyload" src="photos/8.png" /></li>
-          <li><img class="lazyload" src="photos/9.png" /></li>
-          <li><img class="lazyload" src="photos/10.png" /></li>
-          <li><img class="lazyload" src="photos/11.png" /></li>
-          <li><img class="lazyload" src="photos/12.png" /></li>
-          <li><img class="lazyload" src="photos/13.png" /></li>
-          <li><img class="lazyload" src="photos/14.png" /></li>
+          <li><img class="lazyload" src="photos/second/6.png" /></li>
+          <li><img class="lazyload" src="photos/second/7.png" /></li>
+          <li><img class="lazyload" src="photos/second/8.png" /></li>
+          <li><img class="lazyload" src="photos/second/9.png" /></li>
+          <li><img class="lazyload" src="photos/second/10.png" /></li>
+          <li><img class="lazyload" src="photos/second/11.png" /></li>
+          <li><img class="lazyload" src="photos/second/12.png" /></li>
+          <li><img class="lazyload" src="photos/second/13.png" /></li>
+          <li><img class="lazyload" src="photos/second/14.png" /></li>
          </ul>
         </div>
           
@@ -224,15 +224,15 @@
 
             <!--========== SLIDER ==========-->
             <ul class="slider">
-              <li><img class="lazyload" src="photos/p1.png" /></li>
-              <li><img class="lazyload" src="photos/p2.png" /></li>
-              <li><img class="lazyload" src="photos/p3.png" /></li>
-              <li><img class="lazyload" src="photos/p4.png" /></li>
-              <li><img class="lazyload" src="photos/p5.png" /></li>
-              <li><img class="lazyload" src="photos/p6.png" /></li>
-              <li><img class="lazyload" src="photos/p7.png" /></li>
-              <li><img class="lazyload" src="photos/p8.png" /></li>
-              <li><img class="lazyload" src="photos/p9.png" /></li>
+              <li><img class="lazyload" src="photos/third/p1.png" /></li>
+              <li><img class="lazyload" src="photos/third/p2.png" /></li>
+              <li><img class="lazyload" src="photos/third/p3.png" /></li>
+              <li><img class="lazyload" src="photos/third/p4.png" /></li>
+              <li><img class="lazyload" src="photos/third/p5.png" /></li>
+              <li><img class="lazyload" src="photos/third/p6.png" /></li>
+              <li><img class="lazyload" src="photos/third/p7.png" /></li>
+              <li><img class="lazyload" src="photos/third/p8.png" /></li>
+              <li><img class="lazyload" src="photos/third/p9.png" /></li>
              </ul>
             </div>
               
@@ -298,7 +298,8 @@
     <script>
       jQuery(document).ready(function($) {
         $("img.lazyload").lazyload(
-          { data_attribute: "orig" 
+          { 
+            data_attribute: "orig" 
         });
       });
     </script>
