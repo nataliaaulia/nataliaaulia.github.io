@@ -5,15 +5,7 @@
 
 h2 { color: #4c495a }
 
-p {
-  font-family: 'Lora', serif
-}
-
-h3 {
-  font-family: 'Lora', serif
-}
-
-a {
+p, h3, a {
   font-family: 'Lora', serif
 }
 
@@ -39,7 +31,6 @@ h4 {
 #typed,
 .typed-cursor {
   font-size: 50px;
-  /*color: white;*/
 }
 
 #typedjs {
@@ -71,12 +62,7 @@ h4 {
   align: center;
 }
 
-.ontop p {
-  margin: 10px;
-  font-family: 'Lora', serif
-}
-
-.ontop li {
+.ontop p, .ontop li {
   margin: 10px;
   font-family: 'Lora', serif
 }
